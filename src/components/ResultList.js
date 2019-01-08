@@ -22,11 +22,11 @@ const ResultList = (props) => {
         <span style={titleStyle}>Artist Name:</span> {result.artistName}
         <br />
         <br />
-        <span style={titleStyle}>Description:</span> {result.shortDescription}
+        <span style={titleStyle}>Description:</span> {result.shortDescription} 
         <br />
 
 
-          <video width="200" height="150" controls>
+          <video width="350" height="230" controls>
           <source src={result.previewUrl} type="video/mp4" />
           </video>
 {/* אני יודע שזו דרך גרועה ואני צריך ליצור קומפוננטה בשביל הסירטון שאני כרגע רוצה להפעיל בלחיצה

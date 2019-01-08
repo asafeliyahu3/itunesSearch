@@ -2,7 +2,7 @@
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap:10vh;
-  grid-auto-rows: 50vh;
+  grid-auto-rows: 70vh;
 }
 
 .image-list img {
